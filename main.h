@@ -1,0 +1,11 @@
+void create_sha256_hash(const char* input, char* output, size_t output_len);
+void log_transaction(const char* request, ssize_t req_len, const char* response, ssize_t resp_len);
+void cache_store(const char* key, const char* data, ssize_t data_len, int ttl);
+int check_cached_response(const char* key, char* output, ssize_t* output_len);
+void process_client_request(int client_fd);
+void handle_get_request(int client_fd, char* request, ssize_t request_len);
+void forward_request(int client_fd, char* request, ssize_t request_len);
+int connect_to_server(const char* server_address);
+void relay_response(int server_fd, int client_fd);
+int setup_server_socket(int port);
+int accept_connection(int server_fd);
