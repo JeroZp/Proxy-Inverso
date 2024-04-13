@@ -46,19 +46,19 @@ Para crear las conexiones entre el cliente y el proxy, así como entre el proxy 
 El proxy constituye el núcleo central de este proyecto, y para facilitar su comprensión detallada, se dividirá en varios módulos. Cada módulo representa de forma simplificada las diversas funcionalidades implementadas en el código.
 ## Inclusión de las Bibliotecas Necesarias: 
 Proporcionan las funciones de entrada y salida asi como las constantes y tipos.
-## Definicion de constantes:
+#### Definicion de constantes:
 Se declaran las ip de los servidores a cuales el proxy reenvia las solicitudes
-## Funcion main():
+#### Funcion main():
 Inicializa el socket y entra en un bucle para las conexiones del cliente.
-## create_proxy_socket():
+#### create_proxy_socket():
 Se configura un socket TCP y se enlaza con el puerto del servidor.
-## accept_client_connections():
+#### accept_client_connections():
 se manejan las solicitudes de los clientes y acepta las conexiones entrantes.
-## handle_client_request():
+#### handle_client_request():
 Reenvia la solicitud al servidor Apache, espera una respuesta y la envia al cliente.
-## forward_to_apache():
+#### forward_to_apache():
 Envia la solicitud del cliente al servidor.
-## receive_from_apache_and_forward_to_client():
+#### receive_from_apache_and_forward_to_client():
 Recibe la respuesta del servidor y la reenvía al cliente
 
 ### Despliegue:
