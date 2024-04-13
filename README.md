@@ -13,6 +13,8 @@ El uso de un proxy inverso tiene varias ventajas, como la capacidad de equilibra
 
 ## Desarrollo
 ### Generalidades
+![Diagrama en blanco (1)](https://github.com/JeroZp/Proxy-Inverso/assets/100315964/c04d7068-8e41-43b8-b965-47ec04a6cbd9)
+
 Para este proyecto se implementó en C un proxy inverso con balanceador de carga, dicho proxy soportara peticiones HTTP/1.1, además se implementó en este proxy un mecanismo de balanceo de carga y de cache, lo que permitirá una mayor fluidez en términos de velocidad de respuesta.
 
 El balanceo de carga permite establecer la conexión de un URL con diversos servidores en una red privada, lo que ofrece la posibilidad de repartir las solicitudes entrantes por varios servidores y el caché 
