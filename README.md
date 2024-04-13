@@ -38,3 +38,7 @@ Se necesitan seguir los siguientes pasos para el proceso de instalación:
    sudo systemctl restart apache2
    ```
 ### Sockets
+
+## Referencias
+https://www.ionos.es/digitalguide/servidores/know-how/que-es-un-servidor-proxy-inverso/#:~:text=Balanceo%20de%20carga%3A%20un%20servidor,solicitudes%20entrantes%20por%20varios%20servidores.
+https://www.ibm.com/docs/en/zos/2.1.0?topic=functions-recv-receive-data-socket
