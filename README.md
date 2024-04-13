@@ -44,7 +44,7 @@ Para crear las conexiones entre el cliente y el proxy, así como entre el proxy 
 
 ### Proxy
 El proxy constituye el núcleo central de este proyecto, y para facilitar su comprensión detallada, se dividirá en varios módulos. Cada módulo representa de forma simplificada las diversas funcionalidades implementadas en el código.
-## Inclusión de las Bibliotecas Necesarias: 
+#### Inclusión de las Bibliotecas Necesarias: 
 Proporcionan las funciones de entrada y salida asi como las constantes y tipos.
 #### Definicion de constantes:
 Se declaran las ip de los servidores a cuales el proxy reenvia las solicitudes
