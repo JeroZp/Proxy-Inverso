@@ -86,3 +86,5 @@ El proyecto representó una valiosa oportunidad para explorar y aplicar concepto
 ## Referencias
 https://www.ionos.es/digitalguide/servidores/know-how/que-es-un-servidor-proxy-inverso/#:~:text=Balanceo%20de%20carga%3A%20un%20servidor,solicitudes%20entrantes%20por%20varios%20servidores.
 https://www.ibm.com/docs/en/zos/2.1.0?topic=functions-recv-receive-data-socket
+https://httpd.apache.org/docs/trunk/es/howto/reverse_proxy.html
+https://docs.aws.amazon.com/es_es/elasticbeanstalk/latest/dg/environments-cfg-nlb.html
