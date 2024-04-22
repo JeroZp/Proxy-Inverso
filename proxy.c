@@ -16,7 +16,7 @@ char server1[] = "54.208.141.145";
 char server2[] = "54.163.140.203";
 char server3[] = "44.202.119.47";
 #define APACHE_SERVER "127.0.0.1"
-#define APACHE_PORT "80"
+#define APACHE_PORT "8080"
 
 // Function prototypes
 int create_proxy_socket();
