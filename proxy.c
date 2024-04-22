@@ -69,6 +69,11 @@ int create_proxy_socket()
     }
 
     // bind the socket file descriptor to the port
+    int yes = 1;
+    if (setsockopt(sockfd, SOL_SOCKET, SO_REUSEADDR, &yes, sizeof(yes)) == -1) {
+        perror("setsockopt");
+        // Manejo de error
+    }
 
     if (bind(sockfd, res->ai_addr, res->ai_addrlen) != 0)
     {
