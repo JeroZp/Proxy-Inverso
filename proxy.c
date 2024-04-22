@@ -12,9 +12,9 @@
 #define SERVER_PORT "8080"
 #define BUFFER_SIZE 4096
 
-char server1[] = "54.208.252.109";
-char server2[] = "3.84.235.116";
-char server3[] = "34.207.90.227";
+char server1[] = "54.208.141.145";
+char server2[] = "54.163.140.203";
+char server3[] = "44.202.119.47";
 #define APACHE_SERVER "127.0.0.1"
 #define APACHE_PORT "80"
 
